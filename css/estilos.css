@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'DancingScript';
+  src: url(../fonts/DancingScript.ttf);
+}
+body{
+  width: 100%;
+  background-color: black;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 15%;
+  right: 15%;
+  padding: 40px 10px;
+  height: 100px;
+  width: 900px;
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+h1{
+  font-family: 'DancingScript';
+  color: white;
+  font-size: 1.6em;
+  text-shadow: 2px 2px #02010a;
+}
+#opciones{
+  width: 100%;
+  float: right;
+  text-align: right;
+  clear: right;
+}
+#opciones li{
+  padding: 10px;
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+#opciones li a{
+  padding: 10px;
+  padding-top: -25px;
+  font-family: 'DancingScript';
+  text-decoration: underline;
+  color: white;
+  font-size: 1.5em;
+}
+#opciones li a[href^='in']{
+  text-decoration: none;
+}
+footer{
+  clear: both;
+  position: fixed;
+  bottom: 0;
+}
