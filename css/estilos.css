@@ -22,18 +22,18 @@ header{
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-#menu-principal ul{
+/**#menu-principal ul{
     float: left;
     list-style-type: none;
     padding: 0;
     position: relative;
     left: 50%;
-}
-#menu-principal li{
+}**/
+/**#menu-principal li{
    float: left;
    position: relative;
    right: 50%;
-}
+}**/
 #opciones{
   padding: 10px;
   width: 100%;
@@ -64,8 +64,15 @@ header{
   left: 0;
   top: 0;
   font-size: 2.1em;
+  text-shadow: 2px 2px #02010a;
 }
-#opciones li a[href^='in']{
+#menu-principal #opciones li a[href^='in']{
+  text-decoration: none;
+}
+#menu-paisajes #opciones li a[href^='pa']{
+  text-decoration: none;
+}
+#menu-retratos #opciones li a[href^='re']{
   text-decoration: none;
 }
 footer{
